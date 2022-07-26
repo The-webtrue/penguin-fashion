@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configfile -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin:"#FFFBF0",
+                price:"#FABE4C",
+                imgBG:"$F1F1F1"
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body>
+    <header class="bg-penguin pb-8">
+        <section class="container mx-auto sm:flex items-center justify-around ">
+            <div class="space-y-5 pl-5 text-center sm:text-left">
+                <h1 class="text-4xl  sm:text-5xl uppercase font-bold  ">
+                    <span class="text-yellow-400 " >Be the Penguin</span>
+                    <br>
+                    <span>Of Winter</span>
+                </h1>
+                <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus velit delectus cupiditate amet</p>
+                <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg> BUY NOW</button>
+            </div>
+            <div class="pt-4 flex justify-center sm:pt-0">
+                <img class="w-9/12 sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main class="container mx-auto mt-10">
+        <!-- women section -->
+        <section class="pb-32 m-3">
+            <h2 class=" text-5xl font-bold my-5">Women Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-7">
+                <!-- Jacket-1 -->
+                <div class="p-4 shadow-lg rounded-xl space-y-3">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Yellow Coat Jacket </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-lg rounded-xl space-y-3">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Yellow Coat Jacket </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-lg rounded-xl space-y-3 ">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Ladies Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-lg rounded-xl space-y-3">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Woman Leather Jacket </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- man section -->
+        <section class="pb-32 m-3">
+            <h2 class=" text-5xl font-bold my-5">Man Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-7">
+                <!-- Jacket-1 -->
+                <div class="p-4 shadow-lg rounded-xl space-y-3">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-lg rounded-xl space-y-3">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-lg rounded-xl space-y-3 ">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Man Leather Jackets</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-lg rounded-xl space-y-3">
+                    <div class="p-1 bg-slate-200 rounded-xl ">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-3xl font-semibold">Man Casual Jackets</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero tempore blanditiis maxime, possimus aliquid ipsum dolor culpa ex velit?</p>
+                    <div class="flex items-center justify-around">
+                        <h1 class="text-3xl text-price font-bold">$234</h1>
+                        <button class="bg-[#A4BC46] py-4 px-6 text-white font-semibold rounded   "><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg> BUY NOW</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- why buy for us -->
+        <section class="mb-10">
+            <div class="grid sm:grid-cols-2 gap-7  ">
+                <div class="rounded-lg flex items-center gap-x-5 bg-slate-100 p-2 shadow-lg">
+                    <img class="w-20 h-20" src="images/house.png" alt="">
+                    <div>
+                        <h1 class="text-2xl font-bold">Find the Perfect Fit</h1>
+                        <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="row-span-3"><img src="images/shopping.png" alt=""></div>
+                <div class="rounded-lg flex items-center gap-x-5 bg-slate-100 p-2 shadow-lg">
+                    <img class="w-20 h-20" src="images/box.png" alt="">
+                    <div>
+                        <h1 class="text-2xl font-bold">Free Exchanges</h1>
+                        <p>One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="rounded-lg flex items-center gap-x-5 bg-slate-100 p-2 shadow-lg">
+                    <img class="w-20 h-20" src="images/question.png" alt="">
+                    <div>
+                        <h1 class="text-2xl font-bold">Contact Our Seller</h1>
+                        <p>They are here to help you. That's quite 
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="bg-slate-800 py-20">
+            <h1 class="text-center text-4xl font-bold text-white">BE THE PENGUIN OF WINTER</h1>
+            <p class="text-center text-white mt-10">Copyright © 2022 webtrue Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>
